@@ -54,7 +54,7 @@ Ce projet vise à développer une application de gestion de comptes bancaires en
 -Créer un fomulaire pour la recherche des clients
     ![alt text](image-17.png)
 
-    +TEST
++TEST
     ![alt text](image-18.png)
     ![alt text](image-19.png)
 
