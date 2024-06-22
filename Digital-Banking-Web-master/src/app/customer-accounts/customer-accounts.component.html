@@ -1,0 +1,41 @@
+<!--<div class="container mt-2">
+  <div *ngIf="errorMessage" class="text-danger">
+    {{errorMessage}}
+  </div>
+  <ng-container *ngIf="accounts | async as Listaccounts; else failureOrLoading">
+    <div class="card">
+      <div class="card-header">Accounts</div>
+      <div class="card-body">
+        <table class="table">
+          <thead>
+          <tr>
+            <th>ID</th><th>Balance</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let a of accounts | async">
+            <td>{{a.accountId}}</td>
+            <td>{{a.balance}}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-template #failureOrLoading>
+    <ng-container *ngIf="errorMessage; else loading">
+      <div class="text-danger">
+        {{errorMessage}}
+      </div>
+    </ng-container>
+    <ng-template #loading>
+      Loading ...
+    </ng-template>
+  </ng-template>
+
+</div>-->
+<div class="container">
+  <div>{{customerId}}</div>
+  <div>{{customer | json}}</div>
+</div>
